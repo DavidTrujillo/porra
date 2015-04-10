@@ -14,7 +14,7 @@
     <meta property='og:image' content='http://porra.madigital.net/images/porra.png'/>
     <meta property='og:type' content='article'/>
 
-    <title>Marca</title>
+    <title>La porra de Marca.com</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -168,7 +168,8 @@ height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
             <div class="row">
               {% if nuevo == true %}
                <h3>Enhorabuena</h3>
-               ya hemos registrado tu porra.
+               Ya has realizado tu porra del partido de la ida y sólo puedes registrar un resultado por jornada,<br>
+               pero a partir del martes 14 a las 20:45hrs ya podrás participar en tu porra de la vuelta de cuartos de la Champions.
                <br>
                <br>
 

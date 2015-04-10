@@ -155,31 +155,34 @@ height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
             </div>
   
         <div class="container login">
-            <p>Para enviar tu porra debes estar registrado en marca.com</p>
+            <p>Para enviar tu porra y ganar fantásticos premios debes estar registrado en marca.com</p>
+            <br><br>
             <div class="row">
 
-                <div class="col-lg-6 text-left">
+                <div class="col-lg-6 text-left" style="text-align:center;">
                     <form method="post">
                     <h3>Iniciar Sesión</h3>
 <!--                     Email <input name="email" type="text" class="form-control"><br>
                     Password <input name="password" type="password" class="form-control"><br>
- -->                    <a class="btn btn-default page-scroll" href="https://seguro.marca.com/login/login.html?csp=7604&servicio=7604&url_re
+ -->                    <a target="_blank" class="btn btn-default page-scroll" href="https://seguro.marca.com/login/login.html?csp=7604&servicio=7604&url_re
 direct=http://porra.marca.com/porra?res={{equipo1}}-{{equipo2}}">INICIAR SESIÓN</a>
                     </form> 
                     <br>
-                    Si estás registrado en marca.com lógate 
+                    Si estás registrado<br> 
+                    en marca.com lógate 
                 </div>
-                <div class="col-lg-6 text-left">
+                <div class="col-lg-6 text-left" style="text-align:center;">
                     <form method="post" action="">
                     <h3>Regístrate </h3>
 <!--                 <input type="hidden" name="equipo1" class="form-control" value="{{equipo1}}">
                 <input type="hidden" name="equipo2" class="form-control" value="{{equipo2}}">
  -->                   <!--  Email <input type="email" name="email" class="form-control"><br>
                     Password <input type="password" name="password" class="form-control"><br> -->
-                    <a class="btn btn-default page-scroll" href="https://seguro.marca.com/registro/registro.html?csp=7604&servicio=7604&url_redirect=http://porra.marca.com/porra?res={{equipo1}}-{{equipo2}}">REGÍSTRATE</a>
+                    <a target="_blank" class="btn btn-default page-scroll" href="https://seguro.marca.com/registro/registro.html?csp=7604&servicio=7604&url_redirect=http://porra.marca.com/porra?res={{equipo1}}-{{equipo2}}">REGÍSTRATE</a>
                     </form>
                     <br>
-                    Si no eres usuario de marca.com – regístrate 
+                    Si no eres usuario<br> 
+                    de marca.com regístrate 
                 </div>
             </div>
         </div>

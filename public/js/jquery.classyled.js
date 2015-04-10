@@ -143,7 +143,7 @@
                 var m_h = parseInt((time_rem - m_d * 86400) / 3600);
                 var m_m = parseInt((time_rem - m_d * 86400 - m_h * 3600) / 60);
                 var m_s = parseInt(time_rem - m_d * 86400 - m_h * 3600 - m_m * 60);
-                var num = (m_d < 10 ? "0" : "") + m_d + ":" + (m_h < 10 ? "0" : "") + m_h + ":" + (m_m < 10 ? "0" : "") + m_m + ":" + (m_s < 10 ? "0" : "") + m_s;
+                var num = (m_d < 10 ? "00" : "") + m_d + ":" + (m_h < 10 ? "0" : "") + m_h + ":" + (m_m < 10 ? "0" : "") + m_m + ":" + (m_s < 10 ? "0" : "") + m_s;
                 if ((this.new_date.getTime() - d.getTime()) >= 0) {
                     this._tick(num);
                 }

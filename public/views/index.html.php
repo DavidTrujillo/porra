@@ -4,17 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Participa en la porra de MARCA.com y entrarás a concursar por fantásticos premios">
     <meta name="author" content="">
 
-    <meta property="og:title" content="La porra de MARCA.com"/>
-    <meta property="og:url" content="http://porra.madigital.net"/>
-    <meta property="og:image" content="http://porra.madigital.net/images/meta-imagen.png"/>
-    <meta property="og:site_name" content="http://porra.madigital.net"/>
-    <meta property="og:description" content="Participa en la porra de MARCA.com y entrarás a concursar por muchos premios"/> 
+    <meta property="og:title" content="La porra de la Champions de MARCA.com"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:site_name" content="http://porra.marca.com"/>
+    <meta property="og:description" content="Participa en la porra de MARCA.com y entrarás a concursar por muchos premios"/>
+    <meta property='og:image' content='http://porra.marca.com/images/porra.png'/>
+    <meta property='og:type' content='article'/>
 
-
-    <title>La porra de Marca</title>
+    <title>La porra de Marca.com</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -108,8 +108,8 @@
             margin: 20px 0 0 -200px;
             padding: 0;
             position:relative;
-            left:50%;
-            width: 415px;
+            left:40%;
+            width: 513px;
         }
         .navbar-default{
             background:none;
@@ -196,6 +196,18 @@
         .porra-section .login {
           padding: 0;
         }
+        .col-lg-3{
+          width: 25%;
+          font-family: arial;
+          font-size: 9px;
+          text-align: justify;
+        }
+        .col-lg-11 {
+          font-family: arial;
+          font-size: 9px;
+          text-align: justify;
+        }
+
         @media (min-width: 811px) {    
             .container{
                 width:810px;
@@ -361,14 +373,14 @@
        @media (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2){
 
             .menu{
-                left:20%;
+                left:5%;
             }
             .lettering {
              margin: 0 auto;
             }
             .desc1 {
               display: block;
-              margin: 0px 0px 0px 164px;
+              margin: 0px 0px 0px 30px;
               margin-bottom: 34px;
               margin-top: 16px;
               font-size: 9px;
@@ -384,6 +396,9 @@
               padding-top: 150px;
               padding-bottom: 280px;
              }
+             img.premio {
+              max-width: 330px; 
+            }
 
     }
     @media (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
@@ -391,6 +406,10 @@
             .menu{
                 margin-left: 0;
                 display: inline-flex;
+            }
+
+            img.premio {
+              max-width: 330px; 
             }
             
     }
@@ -445,20 +464,24 @@ height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
 <!-- End SiteCatalyst code version: H.26. --></head>
 
 <body id="page-top" data-spy="scroll">
-    <div class="container" style="background:#d71b0c;padding:10px 20px;position:relative">
+    <div class="container" style="background:#d71b0c;padding:10px 20px;position:fixed;left:50%;margin-left:-405px;z-index:1000">
         <div class="pull-left">
             <a href="http://www.marca.com/" target="_blank"><img src="/images/marca.png"></a>
         </div>
         <div class="pull-right">
-            <img src="/images/twitter.png">&nbsp;&nbsp;
-            <img src="/images/fb.png">
+            <a class="tweet" href="https://twitter.com/share?text=¡Visita la porra de la Champions de Marca y participa por fantásticos premios!"
+              data-related="twitterdev"
+              data-size="large"
+              data-count="none"><img src="/images/twitter.png"></a>&nbsp;&nbsp;
+            <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=[URL]&title=[Participa en la porra de MARCA.com y entrarás a concursar por fantásticos premios]"/><img src="/images/fb.png"></a>
         </div>
     </div>
-    <div class="container" style="position:relative;text-align: center;">
+    <div class="container" style="position:relative;text-align: center;padding-top:50px;">
             <ul class="menu">
                 <li><a class="page-scroll" href="#about">HOME</a>
-                <li><a class="page-scroll" href="#porra">PREMIO</a>
-                <li style="border-right:none;"><a class="page-scroll" href="#porra" style="margin:20px 0px 0px 18px">BASES LEGALES</a>
+                <li><a class="page-scroll" href="#premio">PREMIO</a>
+                  <li><a class="page-scroll" href="#porra">PORRA</a>
+                <li style="border-right:none;"><a class="page-scroll" href="/bases" style="margin:20px 0px 0px 18px" target="_blank">BASES LEGALES</a>
             </ul>
     </div>
 
@@ -478,7 +501,7 @@ height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- porra Section -->
     <section id="porra" class="porra-section">
         <div class="container" style="position:relative">
             <div class="desc1">
@@ -531,25 +554,54 @@ height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
                     <input type="hidden" name="equipo2" id="equipo2">
                     <a class="btn btn-default enviar" href="#">VALIDAR PORRA</a> 
                 </form>   
-                <div class="iconos">
+                <!-- <div class="iconos">
                     <img src="/images/twitter.png">&nbsp;&nbsp;
                     <img src="/images/fb.png">
-                </div>
+                </div> -->
             </div>
             <img src="/images/circulo.png" class="circulo" style="position:absolute;left:0;bottom:0">
             <img src="/images/circulo.png" class="circulo" style="position:absolute;right:0;bottom:0">
         </div>
     </section>
+
+    <!-- Premio Section -->
+    <section id="premio" class="porra-section premio">
+        <div class="container" style="position:relative">
+            <img src="/images/circulo.png" class="circulo" style="position:absolute;left:0;top:0">
+            <img src="/images/circulo.png" class="circulo" style="position:absolute;right:0;top:0">
+            <div class="row">
+                <div class="capa-porra premio">
+                   <!--  <img src="/images/premio.png" width="137" class="escudo-madrid"> -->
+                </div>
+                <div class="capa-porra jornada" style="padding-bottom:10em;">
+                 <img src="/images/premio.png" class="premio">
+                </div>
+                <div class="capa-porra">
+                    <!-- <img src="/images/atletico.png" style="margin-left:-30px" class="escudo-atletico">
+                </div> -->
+            </div>
+            <div class="row">
+               
+               
+            
+            <div class="row">
+                
+            </div>
+            <img src="/images/circulo.png" class="circulo" style="position:absolute;left:0;bottom:0">
+            <img src="/images/circulo.png" class="circulo" style="position:absolute;right:0;bottom:0">
+        </div>
+    </section>
+
     <footer>
         <div class="foot-inferior">
             <ul>
                 <li class="rss"><a title="Suscríbete al RSS" href="http://www.marca.com/deporte/rss/"><span>RSS</span></a></li>
-                <li><a title="Ayuda" href="http://www.marca.com/corporativo/ayuda.html">Ayuda</a></li>
-                <li><a title="Términos y Condiciones" href="http://www.marca.com/corporativo/aviso-legal.html ">Términos y Condiciones</a></li>
-                <li><a title="Política de Privacidad" href="http://www.marca.com/corporativo/proteccion-datos.html">Privacidad</a></li>
-                <li><a title="Política de Cookies" href="http://cookies.unidadeditorial.es/">Cookies</a></li>
-                <li><a title="Contacto" href="http://www.marca.com/corporativo/contacto.html">Contacto</a></li>
-                <li><a title="Nuestro equipo" href="http://www.marca.com/corporativo/el_equipo.html">Nuestro equipo</a></li>
+                <li><a title="Ayuda" target="_blank" href="http://www.marca.com/corporativo/ayuda.html">Ayuda</a></li>
+                <li><a title="Términos y Condiciones" target="_blank" href="http://www.marca.com/corporativo/aviso-legal.html ">Términos y Condiciones</a></li>
+                <li><a title="Política de Privacidad" target="_blank" href="http://www.marca.com/corporativo/proteccion-datos.html">Privacidad</a></li>
+                <li><a title="Política de Cookies" target="_blank" href="http://cookies.unidadeditorial.es/">Cookies</a></li>
+                <li><a title="Contacto" target="_blank" href="http://www.marca.com/corporativo/contacto.html">Contacto</a></li>
+                <li><a title="Nuestro equipo" target="_blank" href="http://www.marca.com/corporativo/el_equipo.html">Nuestro equipo</a></li>
                 <li><a title="Venta de contenidos" target="_blank" href="https://www.uesyndication.com">Venta de contenidos</a></li>
                 <li><a title="Publicidad" target="_blank" href="http://www.unidadeditorial.com/publicidad">Publicidad</a></li>
             </ul>
